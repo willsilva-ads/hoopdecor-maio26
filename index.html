@@ -792,7 +792,7 @@
                     <li class="nav-item" data-target="google-ads" draggable="true" ondragstart="handleDragStart(event)" ondragover="handleDragOver(event)" ondrop="handleDrop(event)" ondragend="handleDragEnd(event)"><a href="#google-ads"><span>Google Ads</span></a></li>
                     <li class="nav-item" data-target="targeting" draggable="true" ondragstart="handleDragStart(event)" ondragover="handleDragOver(event)" ondrop="handleDrop(event)" ondragend="handleDragEnd(event)"><a href="#targeting"><span>Públicos Segmentados</span></a></li>
                     <li class="nav-item" data-target="next-steps" draggable="true" ondragstart="handleDragStart(event)" ondragover="handleDragOver(event)" ondrop="handleDrop(event)" ondragend="handleDragEnd(event)"><a href="#next-steps"><span>Recomendações (Ações)</span></a></li>
-                    <li class="nav-item" data-target="finalizacao" draggable="true" ondragstart="handleDragStart(event)" ondragover="handleDragOver(event)" ondrop="handleDrop(event)" ondragend="handleDragEnd(event)"><a href="#finalizacao"><span>Agradecimento</span></a></li>
+                    <li class="nav-item" data-target="resultados-globais" draggable="true" ondragstart="handleDragStart(event)" ondragover="handleDragOver(event)" ondrop="handleDrop(event)" ondragend="handleDragEnd(event)"><a href="#resultados-globais"><span>Resultados Globais</span></a></li>
                 </ul>
             </nav>
         </div>
@@ -1243,40 +1243,122 @@
             </div>
         </section>
 
-        <!-- FINALIZATION SECTION -->
-        <section id="finalizacao" class="section-block">
-            <div class="final-presentation-block">
-                <h2 class="thank-you-title">Muito obrigado pela parceria!</h2>
-                
-                <div class="kpi-grid" style="width: 100%; max-width: 900px; margin-top: 1rem; margin-bottom: 3rem;">
-                    <div class="kpi-card" style="--accent: var(--accent)">
-                        <div class="kpi-label">Investimento Total Geral</div>
-                        <div class="kpi-value">R$ 4.790,44</div>
-                        <div class="kpi-subtext">Meta Ads e Google Ads</div>
-                    </div>
-                    <div class="kpi-card" style="--accent: #00e676">
-                        <div class="kpi-label">Total de Leads Gerados</div>
-                        <div class="kpi-value">94 Leads</div>
-                        <div class="kpi-subtext">Meta Cadastro, WhatsApp e Google</div>
-                    </div>
-                    <div class="kpi-card" style="--accent: #ffd600">
-                        <div class="kpi-label">Visitas Perfil Instagram</div>
-                        <div class="kpi-value">5.593 Visitas</div>
-                        <div class="kpi-subtext">Custo por visita R$ 0,16</div>
+        <!-- RESULTADOS GLOBAIS SECTION -->
+        <section id="resultados-globais" class="section-block">
+            <div class="dash-header">
+                <div>
+                    <h2>Resultados Globais</h2>
+                    <p>Consolidação de métricas e KPIs de todos os canais de tráfego pago - Maio 2026</p>
+                </div>
+            </div>
+
+            <div class="kpi-grid">
+                <div class="kpi-card" style="--accent: var(--accent)">
+                    <div class="kpi-label">Investimento Total Geral</div>
+                    <div class="kpi-value">R$ 4.790,44</div>
+                    <div class="kpi-subtext">Meta Ads e Google Ads</div>
+                </div>
+                <div class="kpi-card" style="--accent: #00e676">
+                    <div class="kpi-label">Total de Leads Gerados</div>
+                    <div class="kpi-value">94 Leads</div>
+                    <div class="kpi-subtext">Meta Cadastro, WhatsApp e Google</div>
+                </div>
+                <div class="kpi-card" style="--accent: #ffd600">
+                    <div class="kpi-label">Visitas Perfil Instagram</div>
+                    <div class="kpi-value">5.593 Visitas</div>
+                    <div class="kpi-subtext">Custo por visita R$ 0,16</div>
+                </div>
+                <div class="kpi-card" style="--accent: var(--meta-color)">
+                    <div class="kpi-label">Impressões Globais</div>
+                    <div class="kpi-value">319.529</div>
+                    <div class="kpi-subtext">Visualizações em todas redes</div>
+                </div>
+            </div>
+
+            <!-- Consolidated Table -->
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="card-title">
+                        <div class="card-title-icon" style="background: var(--accent)"></div>
+                        Comparativo Geral de Campanhas
                     </div>
                 </div>
+                
+                <div class="table-scroll-indicator">
+                    <span>↔ Deslize a tabela para o lado para ver mais</span>
+                </div>
+                <div class="table-responsive">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Canal / Campanha</th>
+                                <th>Impressões</th>
+                                <th>Cliques / Visitas</th>
+                                <th>Leads / Conversões</th>
+                                <th>Custo por Lead (CPL)</th>
+                                <th>Investimento</th>
+                                <th>Fração de Gasto</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="color: #fff; font-weight: 500;">Meta Ads (Cadastro)</td>
+                                <td>48.000</td>
+                                <td>-</td>
+                                <td>49 Leads</td>
+                                <td>R$ 45,26</td>
+                                <td>R$ 2.127,66</td>
+                                <td>44,4%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #fff; font-weight: 500;">Meta Ads (WhatsApp)</td>
+                                <td>29.000</td>
+                                <td>-</td>
+                                <td>34 Leads</td>
+                                <td>R$ 13,14</td>
+                                <td>R$ 446,65</td>
+                                <td>9,3%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #fff; font-weight: 500;">Meta Ads (Visitas Perfil)</td>
+                                <td>241.000</td>
+                                <td>5.593 Visitas</td>
+                                <td>-</td>
+                                <td>R$ 0,16 (CPV)</td>
+                                <td>R$ 892,27</td>
+                                <td>18,6%</td>
+                            </tr>
+                            <tr>
+                                <td style="color: #fff; font-weight: 500;">Google Ads (Leads)</td>
+                                <td>1.529</td>
+                                <td>171 Cliques</td>
+                                <td>11 Leads</td>
+                                <td>R$ 120,35</td>
+                                <td>R$ 1.323,86</td>
+                                <td>27,7%</td>
+                            </tr>
+                            <tr class="total-row">
+                                <td>TOTAL CONSOLIDADO</td>
+                                <td>319.529</td>
+                                <td>5.764 Ações</td>
+                                <td>94 Leads</td>
+                                <td>-</td>
+                                <td>R$ 4.790,44</td>
+                                <td>100,0%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
 
-                <div class="final-branding-card" style="background: transparent; border: none; padding: 0;">
-                    <!-- Closing Signature Block -->
-                    <div class="closing-footer-layout">
-                        <img src="logo-quantika.png" style="height: 35px; object-fit: contain; filter: drop-shadow(0 0 5px rgba(0,210,255,0.3));" alt="QUÂNTIKA Logo">
-                        <div class="footer-logo-mike" style="margin-left: -0.5rem;">QUÂNTIKA</div>
-                        <div class="closing-divider"></div>
-                        <div style="text-align: left; font-size: 0.8rem; color: var(--text-muted);">
-                            <strong style="color: #fff; display: block; margin-bottom: 0.25rem;">HOOP DECOR</strong>
-                            <span>Gestão de Mídia & Analytics | Maio 2026</span>
-                        </div>
-                    </div>
+            <!-- Footer Signature Block -->
+            <div class="closing-footer-layout" style="margin-top: 3rem;">
+                <img src="logo-quantika.png" style="height: 35px; object-fit: contain; filter: drop-shadow(0 0 5px rgba(0,210,255,0.3));" alt="QUÂNTIKA Logo">
+                <div class="footer-logo-mike" style="margin-left: -0.5rem;">QUÂNTIKA</div>
+                <div class="closing-divider"></div>
+                <div style="text-align: left; font-size: 0.8rem; color: var(--text-muted);">
+                    <strong style="color: #fff; display: block; margin-bottom: 0.25rem;">HOOP DECOR</strong>
+                    <span>Gestão de Mídia & Analytics | Maio 2026</span>
                 </div>
             </div>
         </section>
